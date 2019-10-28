@@ -1,10 +1,5 @@
 pipeline {
-  agent {
-    node {
-      label 'Global Agent'
-    }
-
-  }
+  agent none
   stages {
     stage('Build & Test') {
       agent {
